@@ -389,6 +389,53 @@
     }
     .month-name { font-size: 14px; font-weight: 700; }
 
+    /* ── MONTH CHIPS (Historial) ── */
+    .month-scroll {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .month-scroll::-webkit-scrollbar { display: none; }
+    .month-chip {
+      flex-shrink: 0;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
+      background: white;
+      cursor: pointer;
+      color: var(--text-mid);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .month-chip.active {
+      background: var(--blue);
+      border-color: var(--blue);
+      color: white;
+    }
+    .hist-summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--beige);
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin-bottom: 10px;
+      font-size: 12px;
+      color: var(--text-mid);
+      font-weight: 600;
+    }
+    .hist-summary-total {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--blue);
+    }
+
     /* ── TOTALS ROW ── */
     .totals-row {
       display: flex;
@@ -498,10 +545,20 @@
 
   <div style="height:12px"></div>
 
+  <!-- SELECTOR DE MES -->
+  <div class="month-scroll" id="monthChips"></div>
+
   <input class="search-box" type="search" placeholder="🔍  Buscar comercio..." id="searchInput" oninput="renderHistorial()" />
 
+  <!-- FILTROS DE CATEGORÍA -->
   <div class="filter-row" id="catFilters">
     <div class="filter-chip active" data-cat="all" onclick="setFilter(this)">Todos</div>
+  </div>
+
+  <!-- RESUMEN -->
+  <div class="hist-summary" id="histSummary" style="display:none">
+    <span id="histCount">0 transacciones</span>
+    <span class="hist-summary-total" id="histTotal">Q 0</span>
   </div>
 
   <div id="txList">
@@ -583,8 +640,9 @@ const CATEGORIES = {
 
 // ── STATE ────────────────────────────────────────
 let allTx = [];
-let currentMonth = '';   // 'YYYY-MM'
-let activeFilter = 'all';
+let currentMonth = '';     // 'YYYY-MM' — controla Dashboard
+let activeFilter = 'all';  // categoría activa en Historial
+let activeHistMonth = 'all'; // mes activo en Historial ('all' o 'YYYY-MM')
 
 // ── INIT ─────────────────────────────────────────
 async function init() {
@@ -615,6 +673,7 @@ async function init() {
     }
 
     buildCatFilters();
+    buildMonthChips();
     render();
   } catch(e) {
     console.error('Error cargando datos:', e);
@@ -644,10 +703,10 @@ function switchTab(name) {
   });
 }
 
-// ── FILTER ───────────────────────────────────────
+// ── FILTER CATEGORÍA ─────────────────────────────
 function setFilter(el) {
   activeFilter = el.dataset.cat;
-  document.querySelectorAll('.filter-chip').forEach(c =>
+  document.querySelectorAll('#catFilters .filter-chip').forEach(c =>
     c.classList.toggle('active', c === el));
   renderHistorial();
 }
@@ -665,6 +724,41 @@ function buildCatFilters() {
     el.textContent = cfg.icon + ' ' + cat;
     wrap.appendChild(el);
   });
+}
+
+// ── FILTER MES (Historial) ────────────────────────
+const MES_LABELS = {
+  '01':'Ene','02':'Feb','03':'Mar','04':'Abr',
+  '05':'May','06':'Jun','07':'Jul','08':'Ago',
+  '09':'Sep','10':'Oct','11':'Nov','12':'Dic'
+};
+
+function buildMonthChips() {
+  const months = [...new Set(allTx.map(t => t.date.substring(0,7)))].sort();
+  const wrap = document.getElementById('monthChips');
+  wrap.innerHTML = '';
+
+  const allChip = document.createElement('div');
+  allChip.className = 'month-chip active';
+  allChip.textContent = 'Todos';
+  allChip.onclick = () => setMonthFilter(allChip, 'all');
+  wrap.appendChild(allChip);
+
+  months.forEach(mo => {
+    const [y, m] = mo.split('-');
+    const el = document.createElement('div');
+    el.className = 'month-chip';
+    el.textContent = MES_LABELS[m] + ' ' + y.slice(2);
+    el.onclick = () => setMonthFilter(el, mo);
+    wrap.appendChild(el);
+  });
+}
+
+function setMonthFilter(el, month) {
+  activeHistMonth = month;
+  document.querySelectorAll('#monthChips .month-chip').forEach(c =>
+    c.classList.toggle('active', c === el));
+  renderHistorial();
 }
 
 // ── RENDER MASTER ────────────────────────────────
@@ -744,9 +838,13 @@ function renderDashboard(monthTx) {
 // ── HISTORIAL ────────────────────────────────────
 function renderHistorial() {
   const q = (document.getElementById('searchInput').value || '').toLowerCase();
-  const monthTx = allTx.filter(t => t.date.startsWith(currentMonth));
 
-  let filtered = monthTx.filter(t => {
+  // filtrar por mes seleccionado en Historial (independiente del Dashboard)
+  const baseTx = activeHistMonth === 'all'
+    ? allTx
+    : allTx.filter(t => t.date.startsWith(activeHistMonth));
+
+  let filtered = baseTx.filter(t => {
     const catOk  = activeFilter === 'all' || t.category === activeFilter;
     const srchOk = !q || t.merchant.toLowerCase().includes(q) ||
                    (t.category||'').toLowerCase().includes(q);
@@ -754,11 +852,24 @@ function renderHistorial() {
   });
   filtered.sort((a,b) => (b.date + b.time).localeCompare(a.date + a.time));
 
+  // resumen
+  const summaryEl  = document.getElementById('histSummary');
+  const countEl    = document.getElementById('histCount');
+  const totalEl    = document.getElementById('histTotal');
+  if (filtered.length) {
+    const totalQ = filtered.reduce((s,t) => s + toQ(t), 0);
+    countEl.textContent = filtered.length + ' transacción' + (filtered.length !== 1 ? 'es' : '');
+    totalEl.textContent = fmtQ(totalQ);
+    summaryEl.style.display = 'flex';
+  } else {
+    summaryEl.style.display = 'none';
+  }
+
   const el = document.getElementById('txList');
   if (!filtered.length) {
     el.innerHTML = `<div class="empty-state">
       <div class="duck">🦆</div>
-      <p>${monthTx.length ? 'Sin resultados para ese filtro.' : 'Sin transacciones este mes.'}</p>
+      <p>${baseTx.length ? 'Sin resultados para ese filtro.' : 'Sin transacciones en este período.'}</p>
     </div>`;
     return;
   }
