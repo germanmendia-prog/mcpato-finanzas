@@ -1,4 +1,6 @@
 {
-  "last_update": "2026-01-01T00:00:00Z",
-  "transactions_count": 0
+  "last_update": "2026-06-19T15:00:00Z",
+  "transactions_count": 171,
+  "coverage": "2026-04-15 a 2026-06-19",
+  "note": "Pagina 1 de Gmail (50 threads). Threads anteriores a 2026-04-15 pendientes de importar."
 }
