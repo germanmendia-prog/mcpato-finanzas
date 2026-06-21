@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Shadow/water -->
+  <ellipse cx="40" cy="68" rx="22" ry="6" fill="#1A3A6B" opacity="0.18"/>
+
+  <!-- Body -->
+  <ellipse cx="38" cy="54" rx="20" ry="15" fill="#FFD54F"/>
+
+  <!-- Wing highlight -->
+  <ellipse cx="32" cy="54" rx="11" ry="8" fill="#FFB300" transform="rotate(-8 32 54)"/>
+  <ellipse cx="30" cy="52" rx="7" ry="5" fill="#FFC107" transform="rotate(-8 30 52)"/>
+
+  <!-- Tail -->
+  <path d="M18 52 Q10 46 13 38 Q20 44 20 54Z" fill="#FFB300"/>
+  <path d="M18 52 Q12 48 14 42 Q19 46 19 54Z" fill="#FFD54F"/>
+
+  <!-- Neck -->
+  <ellipse cx="52" cy="42" rx="8" ry="10" fill="#FFD54F"/>
+
+  <!-- Head -->
+  <circle cx="54" cy="30" r="13" fill="#FFD54F"/>
+
+  <!-- Eye white -->
+  <circle cx="59" cy="26" r="4" fill="white"/>
+  <!-- Eye pupil -->
+  <circle cx="60" cy="26" r="2.5" fill="#1A237E"/>
+  <!-- Eye shine -->
+  <circle cx="61" cy="25" r="1" fill="white"/>
+
+  <!-- Beak top -->
+  <path d="M64 28 Q74 27 72 32 Q68 35 62 33Z" fill="#FF8F00"/>
+  <!-- Beak bottom -->
+  <path d="M64 33 Q70 33 68 37 Q64 38 62 36Z" fill="#E65100"/>
+  <!-- Beak line -->
+  <path d="M64 33 Q68 33 68 33" stroke="#CC6600" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Head highlight -->
+  <ellipse cx="50" cy="23" rx="5" ry="3" fill="white" opacity="0.15" transform="rotate(-20 50 23)"/>
+
+  <!-- Water ripple -->
+  <path d="M18 66 Q29 62 40 66 Q51 70 62 66" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M22 70 Q31 67 40 70 Q49 73 58 70" stroke="#90CAF9" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+</svg>

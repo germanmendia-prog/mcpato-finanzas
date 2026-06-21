@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <title>McPato — Finanzas Personales</title>
+  <title>McPato - Finanzas</title>
   <style>
     :root {
       --cream:      #FDFBF7;
@@ -51,6 +51,16 @@
       align-items: center;
       justify-content: space-between;
       margin-bottom: 4px;
+    }
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header-logo img {
+      width: 36px;
+      height: 36px;
+      filter: drop-shadow(0 1px 3px rgba(0,0,0,0.25));
     }
     .header h1 {
       font-size: 20px;
@@ -358,7 +368,8 @@
       padding: 48px 24px;
       color: var(--text-light);
     }
-    .empty-state .duck { font-size: 48px; margin-bottom: 12px; }
+    .empty-state .duck { margin-bottom: 12px; }
+    .empty-state .duck img { width: 64px; height: 64px; opacity: 0.7; }
     .empty-state p { font-size: 14px; line-height: 1.5; }
 
     /* ── FOOTER ── */
@@ -455,10 +466,13 @@
 <!-- HEADER -->
 <header class="header">
   <div class="header-top">
-    <h1>🦆 McPato</h1>
+    <div class="header-logo">
+      <img src="assets/duck.svg" alt="McPato logo">
+      <h1>McPato - Finanzas</h1>
+    </div>
     <span class="last-update-badge" id="lastUpdateBadge">Sin datos</span>
   </div>
-  <div class="header-sub">Finanzas personales · BAC Credomatic</div>
+  <div class="header-sub" id="headerSub">Finanzas personales</div>
 </header>
 
 <!-- TABS -->
@@ -530,7 +544,7 @@
     <div class="card-title">Categorías del mes</div>
     <div id="catList">
       <div class="empty-state" style="padding:24px 0">
-        <div class="duck">🦆</div>
+        <div class="duck"><img src="assets/duck.svg" alt=""></div>
         <p>Sin transacciones este mes.<br>Di <strong>"McPato, actualiza"</strong> para importar.</p>
       </div>
     </div>
@@ -563,7 +577,7 @@
 
   <div id="txList">
     <div class="empty-state">
-      <div class="duck">🦆</div>
+      <div class="duck"><img src="assets/duck.svg" alt=""></div>
       <p>No hay transacciones aún.<br>Di <strong>"McPato, actualiza"</strong> para importar.</p>
     </div>
   </div>
@@ -810,7 +824,7 @@ function renderDashboard(monthTx) {
   const catEl = document.getElementById('catList');
   if (!sorted.length) {
     catEl.innerHTML = `<div class="empty-state" style="padding:24px 0">
-      <div class="duck">🦆</div>
+      <div class="duck"><img src="assets/duck.svg" alt=""></div>
       <p>Sin transacciones este mes.<br>Di <strong>"McPato, actualiza"</strong> para importar.</p>
     </div>`;
     return;
@@ -868,7 +882,7 @@ function renderHistorial() {
   const el = document.getElementById('txList');
   if (!filtered.length) {
     el.innerHTML = `<div class="empty-state">
-      <div class="duck">🦆</div>
+      <div class="duck"><img src="assets/duck.svg" alt=""></div>
       <p>${baseTx.length ? 'Sin resultados para ese filtro.' : 'Sin transacciones en este período.'}</p>
     </div>`;
     return;
