@@ -1655,7 +1655,7 @@
       "date": "2026-06-15",
       "time": "20:21",
       "currency": "USD",
-      "amount": 60.81,
+      "amount": 63.22,
       "merchant": "ENVIAFLORES",
       "category": "Regalos",
       "source": "real"
@@ -1708,6 +1708,96 @@
       "amount": 6.15,
       "merchant": "SUPERMERCADOS LA TORRE",
       "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0172",
+      "date": "2026-06-01",
+      "time": "",
+      "currency": "USD",
+      "amount": 28.97,
+      "merchant": "UE COSTA RICA",
+      "category": "Online/USD",
+      "source": "screenshot"
+    },
+    {
+      "id": "tx_0173",
+      "date": "2026-06-19",
+      "time": "10:15",
+      "currency": "USD",
+      "amount": 24.99,
+      "merchant": "PLAYSTATION",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0174",
+      "date": "2026-06-19",
+      "time": "10:18",
+      "currency": "USD",
+      "amount": 14.99,
+      "merchant": "PLAYSTATION",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0175",
+      "date": "2026-06-19",
+      "time": "12:06",
+      "currency": "USD",
+      "amount": 2.99,
+      "merchant": "APPLE.COM/BILL",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0176",
+      "date": "2026-06-20",
+      "time": "08:58",
+      "currency": "Q",
+      "amount": 6.10,
+      "merchant": "LA TORRE SANKRIS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0177",
+      "date": "2026-06-20",
+      "time": "13:19",
+      "currency": "Q",
+      "amount": 174.00,
+      "merchant": "LA CANTINA MAJADAS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0178",
+      "date": "2026-06-20",
+      "time": "16:47",
+      "currency": "Q",
+      "amount": 303.82,
+      "merchant": "MONTAÑOS MAJADAS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0179",
+      "date": "2026-06-20",
+      "time": "17:09",
+      "currency": "Q",
+      "amount": 59.00,
+      "merchant": "CAFE BARISTA CB128 MAJ",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0180",
+      "date": "2026-06-20",
+      "time": "17:28",
+      "currency": "Q",
+      "amount": 612.00,
+      "merchant": "DECATLON III",
+      "category": "Deportes",
       "source": "real"
     }
   ]
