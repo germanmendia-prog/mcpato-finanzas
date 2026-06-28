@@ -1755,7 +1755,7 @@
       "date": "2026-06-20",
       "time": "08:58",
       "currency": "Q",
-      "amount": 6.10,
+      "amount": 6.1,
       "merchant": "LA TORRE SANKRIS",
       "category": "Supermercado",
       "source": "real"
@@ -1765,7 +1765,7 @@
       "date": "2026-06-20",
       "time": "13:19",
       "currency": "Q",
-      "amount": 174.00,
+      "amount": 174.0,
       "merchant": "LA CANTINA MAJADAS",
       "category": "Restaurante",
       "source": "real"
@@ -1785,7 +1785,7 @@
       "date": "2026-06-20",
       "time": "17:09",
       "currency": "Q",
-      "amount": 59.00,
+      "amount": 59.0,
       "merchant": "CAFE BARISTA CB128 MAJ",
       "category": "Café",
       "source": "real"
@@ -1795,9 +1795,259 @@
       "date": "2026-06-20",
       "time": "17:28",
       "currency": "Q",
-      "amount": 612.00,
+      "amount": 612.0,
       "merchant": "DECATLON III",
       "category": "Deportes",
+      "source": "real"
+    },
+    {
+      "id": "tx_0181",
+      "date": "2026-06-22",
+      "time": "06:04",
+      "currency": "Q",
+      "amount": 200.0,
+      "merchant": "GRUPO GASMAR SA",
+      "category": "Gasolina",
+      "source": "real"
+    },
+    {
+      "id": "tx_0182",
+      "date": "2026-06-22",
+      "time": "12:44",
+      "currency": "Q",
+      "amount": 39.0,
+      "merchant": "DOMINOS SAN LUCAS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0183",
+      "date": "2026-06-23",
+      "time": "06:47",
+      "currency": "Q",
+      "amount": 20.0,
+      "merchant": "PARQUEO FPK EPR2",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0184",
+      "date": "2026-06-23",
+      "time": "07:00",
+      "currency": "Q",
+      "amount": 55.0,
+      "merchant": "MCDONALDS 14 CALLE",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0185",
+      "date": "2026-06-23",
+      "time": "13:19",
+      "currency": "Q",
+      "amount": 325.0,
+      "merchant": "BE YOU TIFUL FONTABELLA",
+      "category": "Belleza",
+      "source": "real"
+    },
+    {
+      "id": "tx_0186",
+      "date": "2026-06-23",
+      "time": "14:47",
+      "currency": "Q",
+      "amount": 177.1,
+      "merchant": "DEL GRIEGO FONTABELLA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0187",
+      "date": "2026-06-23",
+      "time": "16:34",
+      "currency": "Q",
+      "amount": 23.7,
+      "merchant": "LA TORRE MILPAS ALTAS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0188",
+      "date": "2026-06-23",
+      "time": "17:48",
+      "currency": "Q",
+      "amount": 28.9,
+      "merchant": "LA TORRE MILPAS ALTAS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0189",
+      "date": "2026-06-24",
+      "time": "11:05",
+      "currency": "USD",
+      "amount": 51.99,
+      "merchant": "APPLE.COM/BILL",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0190",
+      "date": "2026-06-24",
+      "time": "12:13",
+      "currency": "USD",
+      "amount": 24.99,
+      "merchant": "PLAYSTATION",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0191",
+      "date": "2026-06-24",
+      "time": "12:14",
+      "currency": "USD",
+      "amount": 4.99,
+      "merchant": "PLAYSTATION",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0192",
+      "date": "2026-06-25",
+      "time": "01:55",
+      "currency": "USD",
+      "amount": 26.99,
+      "merchant": "Netflix.com",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0193",
+      "date": "2026-06-25",
+      "time": "19:20",
+      "currency": "Q",
+      "amount": 250.75,
+      "merchant": "PRICESMART SAN CRISTOBAL",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0194",
+      "date": "2026-06-26",
+      "time": "14:35",
+      "currency": "USD",
+      "amount": 21.75,
+      "merchant": "UBER EATS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0195",
+      "date": "2026-06-26",
+      "time": "15:52",
+      "currency": "USD",
+      "amount": 2.22,
+      "merchant": "UBER EATS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0196",
+      "date": "2026-06-26",
+      "time": "17:38",
+      "currency": "Q",
+      "amount": 150.3,
+      "merchant": "LA TORRE EXPRESS SAN LUCAS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0197",
+      "date": "2026-06-27",
+      "time": "12:02",
+      "currency": "Q",
+      "amount": 67.2,
+      "merchant": "LA TORRE SANKRIS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0198",
+      "date": "2026-06-27",
+      "time": "13:45",
+      "currency": "Q",
+      "amount": 56.45,
+      "merchant": "WALMART ROOSEVELT",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0199",
+      "date": "2026-06-27",
+      "time": "13:48",
+      "currency": "Q",
+      "amount": 459.95,
+      "merchant": "GNC HIPER PAIZ",
+      "category": "Salud",
+      "source": "real"
+    },
+    {
+      "id": "tx_0200",
+      "date": "2026-06-27",
+      "time": "15:06",
+      "currency": "USD",
+      "amount": 52.14,
+      "merchant": "UBER EATS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0201",
+      "date": "2026-06-27",
+      "time": "16:24",
+      "currency": "Q",
+      "amount": 443.19,
+      "merchant": "MONTANOS MAJADAS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0202",
+      "date": "2026-06-27",
+      "time": "16:33",
+      "currency": "Q",
+      "amount": 55.0,
+      "merchant": "FROZEN WORLD",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0203",
+      "date": "2026-06-27",
+      "time": "22:23",
+      "currency": "Q",
+      "amount": 1799.69,
+      "merchant": "AMAZON",
+      "category": "Online/Q",
+      "source": "real"
+    },
+    {
+      "id": "tx_0204",
+      "date": "2026-06-27",
+      "time": "23:26",
+      "currency": "Q",
+      "amount": 20.0,
+      "merchant": "PARQUEO LA AURORA",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0205",
+      "date": "2026-06-27",
+      "time": "23:41",
+      "currency": "Q",
+      "amount": 136.0,
+      "merchant": "MCDONALDS BOULEVARD",
+      "category": "Restaurante",
       "source": "real"
     }
   ]
