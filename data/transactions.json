@@ -2049,6 +2049,656 @@
       "merchant": "MCDONALDS BOULEVARD",
       "category": "Restaurante",
       "source": "real"
+    },
+    {
+      "id": "tx_0206",
+      "date": "2026-07-16",
+      "time": "16:02",
+      "currency": "USD",
+      "amount": 19.99,
+      "merchant": "PLAYSTATION",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0207",
+      "date": "2026-07-18",
+      "time": "09:53",
+      "currency": "Q",
+      "amount": 250.8,
+      "merchant": "KLOSTER MAJADAS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0208",
+      "date": "2026-07-18",
+      "time": "11:17",
+      "currency": "Q",
+      "amount": 200,
+      "merchant": "SAN LUCAS DL",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0209",
+      "date": "2026-07-19",
+      "time": "19:13",
+      "currency": "Q",
+      "amount": 24,
+      "merchant": "SAN MARTIN PLAZA CENTR",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0210",
+      "date": "2026-07-20",
+      "time": "22:07",
+      "currency": "Q",
+      "amount": 57,
+      "merchant": "BURGER KING R1 ZONA 9",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0211",
+      "date": "2026-07-23",
+      "time": "13:17",
+      "currency": "Q",
+      "amount": 60,
+      "merchant": "ROCKET EPR 9",
+      "category": "Gasolina",
+      "source": "real"
+    },
+    {
+      "id": "tx_0212",
+      "date": "2026-07-23",
+      "time": "14:41",
+      "currency": "Q",
+      "amount": 110,
+      "merchant": "TGI FRIDAYS AVIA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0213",
+      "date": "2026-07-23",
+      "time": "22:55",
+      "currency": "USD",
+      "amount": 146.2,
+      "merchant": "AIRBNB * HMP34W5HYX",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0214",
+      "date": "2026-07-24",
+      "time": "12:30",
+      "currency": "USD",
+      "amount": 2.99,
+      "merchant": "APPLE.COM/BILL",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0215",
+      "date": "2026-07-24",
+      "time": "13:14",
+      "currency": "Q",
+      "amount": 39,
+      "merchant": "DOMINOS 14047 SAN LUCA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0216",
+      "date": "2026-07-24",
+      "time": "23:44",
+      "currency": "Q",
+      "amount": 20,
+      "merchant": "PARQUEO LA AURORA EPR4",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0217",
+      "date": "2026-07-25",
+      "time": "08:41",
+      "currency": "Q",
+      "amount": 67.08,
+      "merchant": "PAIZ AMERICAS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0218",
+      "date": "2026-07-25",
+      "time": "08:50",
+      "currency": "Q",
+      "amount": 61.6,
+      "merchant": "SUPERMERCADOS LA TORRE",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0219",
+      "date": "2026-07-25",
+      "time": "09:02",
+      "currency": "Q",
+      "amount": 56,
+      "merchant": "DOLLARCITY LAS AMERICA",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0220",
+      "date": "2026-07-25",
+      "time": "11:38",
+      "currency": "Q",
+      "amount": 100,
+      "merchant": "CINEPOLIS APP",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0221",
+      "date": "2026-07-25",
+      "time": "12:33",
+      "currency": "Q",
+      "amount": 15,
+      "merchant": "PARQUEO ETU PLAZA",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0222",
+      "date": "2026-07-25",
+      "time": "14:20",
+      "currency": "Q",
+      "amount": 220,
+      "merchant": "BARONS MIRAFLORES",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0223",
+      "date": "2026-07-25",
+      "time": "14:45",
+      "currency": "Q",
+      "amount": 121,
+      "merchant": "MIRAFLORES CINEPOLIS D",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0224",
+      "date": "2026-07-25",
+      "time": "18:08",
+      "currency": "Q",
+      "amount": 30,
+      "merchant": "HELADOS ADELA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0225",
+      "date": "2026-07-25",
+      "time": "18:27",
+      "currency": "Q",
+      "amount": 20,
+      "merchant": "PARQUEOS",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0226",
+      "date": "2026-07-25",
+      "time": "22:04",
+      "currency": "Q",
+      "amount": 20,
+      "merchant": "PLAZA DIEZ",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0227",
+      "date": "2026-07-26",
+      "time": "13:33",
+      "currency": "Q",
+      "amount": 335,
+      "merchant": "FUTECA BOWLING LA ESTA",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0228",
+      "date": "2026-07-26",
+      "time": "15:29",
+      "currency": "Q",
+      "amount": 25,
+      "merchant": "PARQUEO DINAMIA CAYALA",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0229",
+      "date": "2026-07-26",
+      "time": "18:14",
+      "currency": "Q",
+      "amount": 25,
+      "merchant": "PARQUEO PLAZA ZONA 14",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0230",
+      "date": "2026-07-26",
+      "time": "18:31",
+      "currency": "Q",
+      "amount": 40,
+      "merchant": "DELIRIO",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0231",
+      "date": "2026-07-26",
+      "time": "21:29",
+      "currency": "Q",
+      "amount": 110,
+      "merchant": "DELIRIO",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0232",
+      "date": "2026-07-26",
+      "time": "22:28",
+      "currency": "Q",
+      "amount": 242,
+      "merchant": "DELIRIO",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0233",
+      "date": "2026-07-27",
+      "time": "11:37",
+      "currency": "Q",
+      "amount": 118.8,
+      "merchant": "AIDA II ZONA 10",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0234",
+      "date": "2026-07-27",
+      "time": "11:50",
+      "currency": "Q",
+      "amount": 53.6,
+      "merchant": "LA TORRE OAKLAND MALL",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0235",
+      "date": "2026-07-27",
+      "time": "12:42",
+      "currency": "Q",
+      "amount": 839.96,
+      "merchant": "SPORTLINE AMERICA",
+      "category": "Deportes",
+      "source": "real"
+    },
+    {
+      "id": "tx_0236",
+      "date": "2026-07-27",
+      "time": "12:50",
+      "currency": "Q",
+      "amount": 80,
+      "merchant": "BITE OAKLAND PB",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0237",
+      "date": "2026-07-27",
+      "time": "13:38",
+      "currency": "Q",
+      "amount": 135,
+      "merchant": "12 ONZAS OAKLAND PLACE",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0238",
+      "date": "2026-07-27",
+      "time": "14:14",
+      "currency": "Q",
+      "amount": 20,
+      "merchant": "PARQUEOS",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0239",
+      "date": "2026-07-27",
+      "time": "17:59",
+      "currency": "USD",
+      "amount": 26.99,
+      "merchant": "Netflix.com",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0240",
+      "date": "2026-07-29",
+      "time": "07:08",
+      "currency": "Q",
+      "amount": 159.15,
+      "merchant": "LA TORRE MILPAS ALTAS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0241",
+      "date": "2026-07-30",
+      "time": "16:13",
+      "currency": "Q",
+      "amount": 186,
+      "merchant": "CINEPOLIS APP",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0242",
+      "date": "2026-08-01",
+      "time": "09:16",
+      "currency": "Q",
+      "amount": 10,
+      "merchant": "SANKRIS MALL",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0243",
+      "date": "2026-08-01",
+      "time": "10:50",
+      "currency": "Q",
+      "amount": 465.37,
+      "merchant": "PAIZ SAN LUCAS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0244",
+      "date": "2026-08-02",
+      "time": "17:08",
+      "currency": "Q",
+      "amount": 150,
+      "merchant": "DOMINOS 14047 SAN LUCA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0245",
+      "date": "2026-08-03",
+      "time": "07:26",
+      "currency": "Q",
+      "amount": 28.44,
+      "merchant": "LA TORRE MILPAS ALTAS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0246",
+      "date": "2026-08-03",
+      "time": "19:14",
+      "currency": "Q",
+      "amount": 229.99,
+      "merchant": "KASPERLE PASEO ANTIGUA",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0247",
+      "date": "2026-08-04",
+      "time": "10:26",
+      "currency": "USD",
+      "amount": 20,
+      "merchant": "APPLE.COM/BILL",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0248",
+      "date": "2026-08-04",
+      "time": "11:38",
+      "currency": "Q",
+      "amount": 35,
+      "merchant": "& CAFE TORRE 2 BI",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0249",
+      "date": "2026-08-04",
+      "time": "13:38",
+      "currency": "Q",
+      "amount": 28,
+      "merchant": "POPS BLV SN CRISTOBAL",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0250",
+      "date": "2026-08-05",
+      "time": "12:04",
+      "currency": "Q",
+      "amount": 167,
+      "merchant": "MCDONALDS 3 UTATLAN",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0251",
+      "date": "2026-08-05",
+      "time": "17:30",
+      "currency": "Q",
+      "amount": 325,
+      "merchant": "STAY HUNGRY",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0252",
+      "date": "2026-08-05",
+      "time": "21:28",
+      "currency": "Q",
+      "amount": 374,
+      "merchant": "CARNES Y VINOS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0253",
+      "date": "2026-08-07",
+      "time": "10:10",
+      "currency": "Q",
+      "amount": 38,
+      "merchant": "& CAFE TORRE 2 BI",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0254",
+      "date": "2026-08-07",
+      "time": "10:52",
+      "currency": "Q",
+      "amount": 27,
+      "merchant": "MCDONALDS ZONA VIVA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0255",
+      "date": "2026-08-07",
+      "time": "18:11",
+      "currency": "Q",
+      "amount": 396,
+      "merchant": "MAX ZONA 9",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0256",
+      "date": "2026-08-07",
+      "time": "21:49",
+      "currency": "Q",
+      "amount": 287,
+      "merchant": "MCDONALDS ZONA 9",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0257",
+      "date": "2026-08-08",
+      "time": "07:13",
+      "currency": "Q",
+      "amount": 178,
+      "merchant": "STARBUCKS EVENTOS",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0258",
+      "date": "2026-08-08",
+      "time": "11:29",
+      "currency": "Q",
+      "amount": 65.55,
+      "merchant": "PEDIDOS YA GROCERIES",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0259",
+      "date": "2026-08-08",
+      "time": "17:10",
+      "currency": "Q",
+      "amount": 371.8,
+      "merchant": "SAN MARTIN ENCINAL",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0260",
+      "date": "2026-08-08",
+      "time": "17:11",
+      "currency": "Q",
+      "amount": 513.7,
+      "merchant": "SAN MARTIN ENCINAL",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0261",
+      "date": "2026-08-09",
+      "time": "15:19",
+      "currency": "Q",
+      "amount": 427.75,
+      "merchant": "PRICESMART FRAIJANES",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0262",
+      "date": "2026-08-11",
+      "time": "09:39",
+      "currency": "Q",
+      "amount": 10000,
+      "merchant": "COMOSA VEL",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0263",
+      "date": "2026-08-12",
+      "time": "09:10",
+      "currency": "Q",
+      "amount": 205,
+      "merchant": "GENBA ECOMMERCE",
+      "category": "Online/Q",
+      "source": "real"
+    },
+    {
+      "id": "tx_0264",
+      "date": "2026-08-12",
+      "time": "14:22",
+      "currency": "Q",
+      "amount": 734,
+      "merchant": "ELCAZADOR ITALIANO TIN",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0265",
+      "date": "2026-08-13",
+      "time": "11:10",
+      "currency": "Q",
+      "amount": 400,
+      "merchant": "BLACK BOX SAN CRISTOBA",
+      "category": "Deportes",
+      "source": "real"
+    },
+    {
+      "id": "tx_0266",
+      "date": "2026-08-13",
+      "time": "13:05",
+      "currency": "Q",
+      "amount": 600,
+      "merchant": "BE YOU TIFUL FONTABELL",
+      "category": "Belleza",
+      "source": "real"
+    },
+    {
+      "id": "tx_0267",
+      "date": "2026-08-13",
+      "time": "14:31",
+      "currency": "Q",
+      "amount": 209,
+      "merchant": "DIESELDORFF KAFFEE",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0268",
+      "date": "2026-08-13",
+      "time": "14:55",
+      "currency": "Q",
+      "amount": 36,
+      "merchant": "& CAFE AVIA",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0269",
+      "date": "2026-08-13",
+      "time": "16:34",
+      "currency": "Q",
+      "amount": 35,
+      "merchant": "STARBUCKS ROOSEVELT",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0270",
+      "date": "2026-08-13",
+      "time": "18:31",
+      "currency": "Q",
+      "amount": 423.01,
+      "merchant": "SAN LUCAS DL",
+      "category": "Restaurante",
+      "source": "real"
     }
   ]
 }
