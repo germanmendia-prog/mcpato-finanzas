@@ -2699,6 +2699,586 @@
       "merchant": "SAN LUCAS DL",
       "category": "Restaurante",
       "source": "real"
+    },
+    {
+      "id": "tx_0271",
+      "date": "2026-08-14",
+      "time": "16:32",
+      "currency": "Q",
+      "amount": 33.0,
+      "merchant": "STARBUCKS EVENTOS",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0272",
+      "date": "2026-08-14",
+      "time": "17:43",
+      "currency": "Q",
+      "amount": 76.8,
+      "merchant": "PAIZ EL NARANJO",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0273",
+      "date": "2026-08-15",
+      "time": "08:30",
+      "currency": "Q",
+      "amount": 30.0,
+      "merchant": "STARBUCKS EVENTOS",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0274",
+      "date": "2026-08-15",
+      "time": "10:41",
+      "currency": "Q",
+      "amount": 213.4,
+      "merchant": "OFBR",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0275",
+      "date": "2026-08-15",
+      "time": "10:59",
+      "currency": "Q",
+      "amount": 6.2,
+      "merchant": "LA TORRE FUTECA ZONA",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0276",
+      "date": "2026-08-15",
+      "time": "11:17",
+      "currency": "Q",
+      "amount": 256.0,
+      "merchant": "PASTELER.A LOS TULIPAN",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0277",
+      "date": "2026-08-15",
+      "time": "11:31",
+      "currency": "Q",
+      "amount": 100.6,
+      "merchant": "SUPERMERCADOS LA TORRE",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0278",
+      "date": "2026-08-16",
+      "time": "16:32",
+      "currency": "Q",
+      "amount": 467.92,
+      "merchant": "MONTANOS MAJADAS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0279",
+      "date": "2026-08-18",
+      "time": "11:54",
+      "currency": "Q",
+      "amount": 39.0,
+      "merchant": "STARBUCKS SAN CRISTOBA",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0280",
+      "date": "2026-08-18",
+      "time": "12:11",
+      "currency": "Q",
+      "amount": 17.0,
+      "merchant": "TACO BELL SAN CRISTOBA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0281",
+      "date": "2026-08-19",
+      "time": "12:06",
+      "currency": "USD",
+      "amount": 2.99,
+      "merchant": "APPLE.COM/BILL",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0282",
+      "date": "2026-08-20",
+      "time": "15:13",
+      "currency": "USD",
+      "amount": 49.24,
+      "merchant": "AIRBNB * HMHF5FEFMF",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0283",
+      "date": "2026-08-22",
+      "time": "09:13",
+      "currency": "Q",
+      "amount": 14.3,
+      "merchant": "LA TORRE SANKRIS",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0284",
+      "date": "2026-08-22",
+      "time": "11:11",
+      "currency": "Q",
+      "amount": 87.0,
+      "merchant": "QUINOS PIZZERIA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0285",
+      "date": "2026-08-22",
+      "time": "11:52",
+      "currency": "Q",
+      "amount": 130.0,
+      "merchant": "THE SHAVE BARBERS. LA",
+      "category": "Belleza",
+      "source": "real"
+    },
+    {
+      "id": "tx_0286",
+      "date": "2026-08-22",
+      "time": "12:05",
+      "currency": "Q",
+      "amount": 3.1,
+      "merchant": "LA TORRE FUTECA ZONA",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0287",
+      "date": "2026-08-22",
+      "time": "13:48",
+      "currency": "Q",
+      "amount": 382.8,
+      "merchant": "CAFE SAUL ZONA",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0288",
+      "date": "2026-08-22",
+      "time": "15:23",
+      "currency": "Q",
+      "amount": 86.9,
+      "merchant": "TREFRATELLI ZONA 14 DE",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0289",
+      "date": "2026-08-22",
+      "time": "15:33",
+      "currency": "Q",
+      "amount": 3.1,
+      "merchant": "LA TORRE FUTECA ZONA",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0290",
+      "date": "2026-08-22",
+      "time": "18:53",
+      "currency": "Q",
+      "amount": 159.5,
+      "merchant": "CARNES Y VINOS",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0291",
+      "date": "2026-08-22",
+      "time": "19:53",
+      "currency": "Q",
+      "amount": 382.9,
+      "merchant": "PRICESMART SAN CRISTOB",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0292",
+      "date": "2026-08-22",
+      "time": "20:07",
+      "currency": "Q",
+      "amount": 25.0,
+      "merchant": "STARBUCKS SAN CRISTOBA",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0293",
+      "date": "2026-08-23",
+      "time": "07:15",
+      "currency": "Q",
+      "amount": 11.0,
+      "merchant": "LA TORRE EXESS ZONA",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0294",
+      "date": "2026-08-23",
+      "time": "09:08",
+      "currency": "Q",
+      "amount": 144.75,
+      "merchant": "LA TORRE EXESS ZONA",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0295",
+      "date": "2026-08-23",
+      "time": "13:26",
+      "currency": "Q",
+      "amount": 734.8,
+      "merchant": "NARU ZONA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0296",
+      "date": "2026-08-23",
+      "time": "14:01",
+      "currency": "Q",
+      "amount": 150.0,
+      "merchant": "PARQUEO CC LA NORIA TE",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0297",
+      "date": "2026-08-23",
+      "time": "14:29",
+      "currency": "Q",
+      "amount": 6674.05,
+      "merchant": "MAX PLAZA DECIMA.",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0298",
+      "date": "2026-08-23",
+      "time": "14:35",
+      "currency": "Q",
+      "amount": 42.15,
+      "merchant": "LA TORRE FUTECA ZONA",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0299",
+      "date": "2026-08-23",
+      "time": "18:42",
+      "currency": "Q",
+      "amount": 176.2,
+      "merchant": "F CRUZ VERDE SN LUCAS2",
+      "category": "Salud",
+      "source": "real"
+    },
+    {
+      "id": "tx_0300",
+      "date": "2026-08-24",
+      "time": "05:13",
+      "currency": "USD",
+      "amount": 26.0,
+      "merchant": "DUTY FREE SPN GUATEMAL",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0301",
+      "date": "2026-08-24",
+      "time": "05:17",
+      "currency": "USD",
+      "amount": 16.0,
+      "merchant": "DUTY FREE SPN GUATEMAL",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0302",
+      "date": "2026-08-24",
+      "time": "12:27",
+      "currency": "USD",
+      "amount": 3.31,
+      "merchant": "UBER BV USD-USD COSTA",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0303",
+      "date": "2026-08-24",
+      "time": "12:45",
+      "currency": "USD",
+      "amount": 12.13,
+      "merchant": "COMIDA CALLEJERA RESTA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0304",
+      "date": "2026-08-24",
+      "time": "19:50",
+      "currency": "USD",
+      "amount": 3.3,
+      "merchant": "UBER BV USD-USD COSTA",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0305",
+      "date": "2026-08-24",
+      "time": "20:09",
+      "currency": "USD",
+      "amount": 22.81,
+      "merchant": "RED FISH",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0306",
+      "date": "2026-08-25",
+      "time": "02:44",
+      "currency": "USD",
+      "amount": 26.99,
+      "merchant": "NETFLIX.COM",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0307",
+      "date": "2026-08-25",
+      "time": "06:02",
+      "currency": "USD",
+      "amount": 36.26,
+      "merchant": "UBER EATS COSTA RICA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0308",
+      "date": "2026-08-25",
+      "time": "07:42",
+      "currency": "USD",
+      "amount": 5.99,
+      "merchant": "APPLE.COM/BILL",
+      "category": "Online/USD",
+      "source": "real"
+    },
+    {
+      "id": "tx_0309",
+      "date": "2026-08-25",
+      "time": "21:25",
+      "currency": "USD",
+      "amount": 70.43,
+      "merchant": "REPUBLICA CERVECERA LA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0310",
+      "date": "2026-08-26",
+      "time": "12:34",
+      "currency": "USD",
+      "amount": 11.09,
+      "merchant": "LOS SUENOS CAFE",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0311",
+      "date": "2026-08-26",
+      "time": "20:09",
+      "currency": "USD",
+      "amount": 47.2,
+      "merchant": "HAMBURGUESIA AV ESCAZU",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0312",
+      "date": "2026-08-26",
+      "time": "20:37",
+      "currency": "USD",
+      "amount": 6.33,
+      "merchant": "NOVA CINEMAS",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0313",
+      "date": "2026-08-27",
+      "time": "00:03",
+      "currency": "USD",
+      "amount": 5.08,
+      "merchant": "UBER BV USD-USD COSTA",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0314",
+      "date": "2026-08-27",
+      "time": "02:23",
+      "currency": "USD",
+      "amount": 4.64,
+      "merchant": "UBER BV USD-USD COSTA",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0315",
+      "date": "2026-08-27",
+      "time": "12:27",
+      "currency": "USD",
+      "amount": 50.55,
+      "merchant": "OFFICE DEPOT",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0316",
+      "date": "2026-08-27",
+      "time": "13:47",
+      "currency": "USD",
+      "amount": 24.21,
+      "merchant": "LA DIVINA COMIDA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0317",
+      "date": "2026-08-27",
+      "time": "20:29",
+      "currency": "USD",
+      "amount": 2.77,
+      "merchant": "FRESH MARKET BELLO HOR",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0318",
+      "date": "2026-08-28",
+      "time": "02:58",
+      "currency": "USD",
+      "amount": 5.31,
+      "merchant": "UBER BV USD-USD COSTA",
+      "category": "Transporte",
+      "source": "real"
+    },
+    {
+      "id": "tx_0319",
+      "date": "2026-08-28",
+      "time": "08:30",
+      "currency": "USD",
+      "amount": 5.35,
+      "merchant": "ANA MARIA BASADRE COFF",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0320",
+      "date": "2026-08-28",
+      "time": "15:15",
+      "currency": "USD",
+      "amount": 25.2,
+      "merchant": "ANFITEATRO VILLA SAN JOSE",
+      "category": "Otros",
+      "source": "real"
+    },
+    {
+      "id": "tx_0321",
+      "date": "2026-08-28",
+      "time": "16:43",
+      "currency": "USD",
+      "amount": 15.34,
+      "merchant": "FRESH MARKET CIUDAD CO",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0322",
+      "date": "2026-08-28",
+      "time": "18:05",
+      "currency": "USD",
+      "amount": 21.74,
+      "merchant": "WHOOPS ATO SJO",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0323",
+      "date": "2026-08-28",
+      "time": "22:27",
+      "currency": "Q",
+      "amount": 71.0,
+      "merchant": "MCDONALDS 21 SAN CRIST",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0324",
+      "date": "2026-08-29",
+      "time": "17:47",
+      "currency": "Q",
+      "amount": 30.0,
+      "merchant": "STARBUCKS SAN CRISTOBA",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0325",
+      "date": "2026-08-29",
+      "time": "22:08",
+      "currency": "Q",
+      "amount": 322.56,
+      "merchant": "RESTAURANTE AMBIA",
+      "category": "Restaurante",
+      "source": "real"
+    },
+    {
+      "id": "tx_0326",
+      "date": "2026-08-30",
+      "time": "09:29",
+      "currency": "Q",
+      "amount": 1193.12,
+      "merchant": "PRICESMART SAN CRISTOB",
+      "category": "Supermercado",
+      "source": "real"
+    },
+    {
+      "id": "tx_0327",
+      "date": "2026-08-30",
+      "time": "09:42",
+      "currency": "Q",
+      "amount": 30.0,
+      "merchant": "STARBUCKS SAN CRISTOBA",
+      "category": "Café",
+      "source": "real"
+    },
+    {
+      "id": "tx_0328",
+      "date": "2026-08-30",
+      "time": "09:54",
+      "currency": "Q",
+      "amount": 190.0,
+      "merchant": "WALMART SAN CRISTOBAL",
+      "category": "Supermercado",
+      "source": "real"
     }
   ]
 }
